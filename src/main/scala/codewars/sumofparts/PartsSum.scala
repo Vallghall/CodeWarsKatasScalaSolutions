@@ -2,7 +2,7 @@ package codewars.sumofparts
 
 import scala.annotation.tailrec
 
-object PartsSum extends App {
+object PartsSum {
   def partsSums(l: List[Int]): List[Int] = {
       @tailrec
       def listSum(acc: List[Int], x: List[Int]): List[Int] = {
